@@ -1,0 +1,14 @@
+# Gemini CLI/Agent 忽略项
+.gemini/
+.agents/
+.DS_Store
+
+# 构建与运行产物 (如果有 Python 脚本运行)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 临时文件
+tmp/
+*.tmp
+*.log

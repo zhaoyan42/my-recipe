@@ -53,8 +53,21 @@
 ---
 
 ## 📂 项目结构 (Project Structure)
-- `skills/my-recipe/SKILL.md`: 核心逻辑。
+- `skills/my-recipe/SKILL.md`: 技能树入口与路由器。
+- `skills/my-recipe/planning/SKILL.md`: 起手澄清、食谱构建、冰箱清空。
+- `skills/my-recipe/inventory/SKILL.md`: 采购核销与清单回写。
+- `skills/my-recipe/equipment/SKILL.md`: 模具缩放与器具替代。
+- `skills/my-recipe/timeline/SKILL.md`: 多菜统筹与时间轴编排。
+- `skills/my-recipe/rescue/SKILL.md`: 翻车急救与口味修正。
 - `skills/my-recipe/references/`: 参考库（单位换算、设备、急救手册）。
+- `CONTRIBUTING.md`: 贡献与改造指南。
+- `tests/skill-triggering/`: 黑盒测试样例与运行脚本。
 
 ## 🚀 使用方法
 将 `skills/my-recipe` 目录链接或复制到您的 AI 助手技能路径中即可开始对话。
+
+## 🤝 贡献方式
+如果你想继续扩展这个项目，先看 `CONTRIBUTING.md`。那里整理了推荐的改动范围、编辑原则和提交前检查清单，适合按 `superpowers` 那种“仓库自带协作流程”的方式推进。
+
+## 🧪 测试方式
+测试参考了 `superpowers` 的思路：用自然语言提示词触发技能，再检查命中的技能名称。你可以先跑 `tests/skill-triggering/run-all.sh`，看每个子技能是否都能被正确唤起。

@@ -59,7 +59,8 @@
 - `skills/my-recipe/equipment/SKILL.md`: 模具缩放与器具替代。
 - `skills/my-recipe/timeline/SKILL.md`: 多菜统筹与时间轴编排。
 - `skills/my-recipe/rescue/SKILL.md`: 翻车急救与口味修正。
-- `skills/my-recipe/references/`: 参考库（单位换算、设备、急救手册）。
+- `skills/my-recipe/references/`: 参考库（单位换算、设备、急救决策表、急救手册）。
+- `skills/my-recipe/scripts/`: 确定性辅助脚本。
 - `CONTRIBUTING.md`: 贡献与改造指南。
 - `tests/skill-triggering/`: 黑盒测试样例与运行脚本。
 

@@ -8,7 +8,8 @@ This repository is organized around one router skill plus several focused sub-sk
 
 - `skills/my-recipe/SKILL.md` for the main behavior, workflows, and output rules.
 - `skills/my-recipe/{planning,inventory,equipment,timeline,rescue}/SKILL.md` for the focused skill trees.
-- `skills/my-recipe/references/*.md` for reusable knowledge like units, equipment, and rescue guidance.
+- `skills/my-recipe/references/*.md` for reusable knowledge like units, equipment, rescue decisions, and rescue guidance.
+- `skills/my-recipe/scripts/*` for deterministic helpers that should not be re-derived every time.
 - `README.md` for the project overview and the contribution entry point.
 - `tests/skill-triggering/` for prompt-driven trigger tests.
 
